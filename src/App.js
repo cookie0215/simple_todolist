@@ -1,8 +1,10 @@
+import AddList from "./components/AddList";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <AddList />
+    </>
   );
 }
 
