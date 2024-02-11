@@ -5,8 +5,8 @@ import { BsTrash3Fill } from "react-icons/bs";
 const TodoCard = ({ text }) => {
   return (
     <S.TodoCardWarp>
-      <S.CompleteBtn>완료</S.CompleteBtn>
-      <p>{text}</p>
+      <S.CompleteBtn></S.CompleteBtn>
+      <S.TodoContents>{text}</S.TodoContents>
       <S.DeleteBtn>
         <BsTrash3Fill />
       </S.DeleteBtn>
