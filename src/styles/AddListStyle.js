@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Form = styled.form` 
   border: 1px solid red;
   width: 100%;
+  position: fixed;
+  bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
